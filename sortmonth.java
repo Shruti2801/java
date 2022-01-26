@@ -20,12 +20,13 @@ public class sortmonth{
                 out.add(date);
             }
 
-            System.out.println(out);
-            out.sort(new Comparator<Date>() {
-                public int compare(Date arg0, Date arg1) {
-                    return arg0.compareTo(arg1);
-                }
-            });
+//             System.out.println(out);
+//             out.sort(new Comparator<Date>() {
+//                 public int compare(Date arg0, Date arg1) {
+//                     return arg0.compareTo(arg1);
+//                 }
+//             });
+            Collections.sort(out);
 
 
             for (Date date1 : out) {
